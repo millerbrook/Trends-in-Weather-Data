@@ -1,0 +1,27 @@
+.header {
+    padding = 10px;
+    background-color: gray;
+}
+
+h1, h2 {
+    color: teal;
+}
+
+.reverse {
+    background-color: teal;
+    color: rgb(163, 155, 155);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.page {
+    background-color: white;
+}
