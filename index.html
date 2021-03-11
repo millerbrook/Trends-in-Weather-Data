@@ -18,7 +18,7 @@
         <br /><br />
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Latitude</a>
+        <a class="navbar-brand" style="background-color: teal; color: white; padding: 3px; border-radius: 10%; font-size: 2em;" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,16 +50,17 @@
 
     <div class="container main">
         <div class="row">
+        <div class="row" style="padding-top: 30px; padding-bottom: 30px;">
             <div class="col-md-1">
-                FILLER AREA
+            
             </div>
-            <div class="page col-md-5">
+            <div class="page col-md-6" style="border-radius: 2%;">
                 <h1>Summary: Latitude vs. X</h1>
                 <hr>
                 <div>
-                    <img class="img-thumbnail float-md-left" style = "width: 50%; padding-right: 5px;" src="Resources/assets/images/Fig1.png"
-                        alt="Latitude small image">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                    <img class="img-thumbnail float-md-left" style="width: 50%; padding-right: 5px;"
+                        src="Resources/assets/images/Fig1.png" alt="Latitude small image">
+                    <p style="margin-left: 3px;">The purpose of this project was to analyze how weather changes as you get closer to the equator.
                         To
                         accomplish this analysis, we first pulled data from the OpenWeatherPy API to assemble a dataset
                         on
@@ -72,33 +73,28 @@
                         descriptions of any trends and correlations witnessed.</p>
                 </div>
             </div>
-            <div class= "container col-md-1">
+            <div class="col-md-1">
 
             </div>
-            <div class="col-md-4 page">
-                <h2>Visualizations</h2>
+            <div class="container col-md-3 page" style="border-radius: 2%;">
+                <h3 style="padding-right: 5px;">Visualizations</h3>
                 <hr>
-                <div class="container-fluid pt-3">
-                    <div class="card-columns">
-                        <div class="card">
-                                                  
-                        <img src="Resources/assets/images/Fig1.png" class="card-img-top" style="width:100%; height: 200px;" alt="Latitude small image">
+                <div class="row">
+                    <div class="col-md-6">
+                       <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" class="img-thumbnail" alt="Latitude temperature analysis" /></a>
+                       <a href="humidity.html"> <img src="Resources/assets/images/Fig2.png" class="img-thumbnail" alt="Latitude humidity analysis" /></a>
                     </div>
-                        <img src="Resources/assets/images/Fig2.png" class="img-thumbnail" alt="Latitude small image">
-                    </div>
-                    <div class="column-md2">
-                        <img src="Resources/assets/images/Fig3.png" class="img-thumbnail" alt="Latitude small image">
-                        <img src="Resources/assets/images/Fig4.png" class="img-thumbnail" alt="Latitude small image">
+                    <div class="col-md-6">
+                       <a href="cloudiness.html"> <img src="Resources/assets/images/Fig3.png" class="img-thumbnail" alt="Latitude cloudiness analysis" /></a>
+                        <a href="windiness.html"><img src="Resources/assets/images/Fig4.png" class="img-thumbnail" alt="Latitude windiness analysis" /></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-1">
-                FILLER AREA
+            
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <br /><br />
+    
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
