@@ -1,6 +1,6 @@
-.header {
-    padding = 10px;
-    background-color: gray;
+.header, .footer {
+    padding : 10px;
+    background-color: lightgray;
 }
 
 h1, h2 {
