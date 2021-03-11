@@ -9,8 +9,11 @@ h1, h3 {
 
 .reverse {
     background-color: teal;
-    color: rgb(163, 155, 155);
     text-align: center;
+   color: white; 
+   padding: 3px; 
+   border-radius: 10%; 
+   font-size: 2em;
 }
 
 a {
@@ -19,7 +22,6 @@ a {
 
 .main {
     background-color: lightgray;
-    display: inline-block;
 }
 
 .page {
