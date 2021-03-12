@@ -28,3 +28,16 @@ a {
 .page {
     background-color: white;
 }
+
+.bottom-row {
+    padding-top: 10%;
+}
+
+@media only screen and (max-width: 800px){
+.main {
+    background-color: white;
+}
+.green-small {
+    background-color: teal;
+}
+}
