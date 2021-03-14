@@ -23,3 +23,6 @@ Nav:
 -->Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.: DONE
 -->Is responsive (using media queries): DONE-- use media query for color change; use Bootstrap for other changes 
 -->background color change: DONE
+
+1 persistent problem: on data.html, neither the 'Plot' dropdown nor the hamburger work. The code for the <nav> is identical between data.html and other pages. Can you point out what is messing this up?
+A style question: on index.html and other pages with a sidebar, the sidebar is styled to be the same height as the main part of the page. I tried different options for shortening the sidebar, but always ran into problems. Could you point out a simple way to make the height of the sidebar short?
